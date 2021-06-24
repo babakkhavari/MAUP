@@ -3,9 +3,9 @@ Supporting codes for analysis conducted as part of **The modifiable areal unit p
 
 ## Content
 This repository contains:
-* An environment .yml file needed for generating a fully functioning python 3.7 environment necessary for the clustering algorithm.
-* The clustering code and related functions. These files also contain necessary steps in order to reproduce results.
-* An example case for Benin.
+* An environment .yml file needed for generating a fully functioning python 3.7 environment necessary for the codes in this repository.
+* The DBSCAN code used for the DBSCAN clustering. 
+* The code used in order to conduct and visualize the sensitivity analysis (based on [SALib](https://github.com/SALib/SALib).
 
 ## Installing and running the clustering notebook
 
