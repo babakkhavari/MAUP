@@ -1,2 +1,2 @@
 # MAUP
-Supporting codes for MAUP analysis
+Supporting codes for analysis conducted as part of **The modifiable areal unit problem in geospatial least-cost electrification modelling** by [Babak Khavari](https://github.com/babakkhavari), [Andreas Sahlberg](https://github.com/AndreasSahlberg), [Will Usher](https://github.com/willu47), [Alexandros Korkovelos](https://github.com/akorkovelos) and [Francesco Fuso Nerini](https://github.com/FFusoNerini)
