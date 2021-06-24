@@ -11,7 +11,7 @@ This repository contains:
 
 **Requirements**
 
-The clustering module (as well as all supporting scripts in this repo) have been developed in Python 3. We recommend installing [Anaconda's free distribution](https://www.anaconda.com/distribution/) as suited for your operating system. 
+The MAUP module (as well as all supporting scripts in this repo) have been developed in Python 3. We recommend installing [Anaconda's free distribution](https://www.anaconda.com/distribution/) as suited for your operating system. 
 
 **Install the clustering repository from GitHub**
 
@@ -19,41 +19,34 @@ After installing Anaconda you can download the repository directly or clone it t
 
 ```
 > conda install git
-> git clone https://github.com/babakkhavari/Clustering.git
+> git clone https://github.com/babakkhavari/MAUP.git
 ```
-Once installed, open anaconda prompt and move to your local "clustering" directory using:
+Once installed, open anaconda prompt and move to your local "MAUP" directory using:
 ```
-> cd ..\Clustering
+> cd ..\MAUP
 ```
 
-In order to be able to run the clustering tool (main.ipynb and funcs.ipynb) you have to install all necessary packages. "full_project.yml" contains all of these and can be easily set up by creating a new virtual environment using:
+In order to be able to run the codes available, you have to install all necessary packages. "full_project.yml" contains all of these and can be easily set up by creating a new virtual environment using:
 
 ```
-conda env create --name clustering --file full_project.yml
+conda env create --name MAUP --file full_project.yml
 ```
 
 This might take some time. When complete, activate the virtual environment using:
 
 ```
-conda activate clustering
+conda activate MAUP
 ```
 
 With the environment activated, you can now move to the clustering directory and start a "jupyter notebook" session by simply typing:
 
 ```
-..\Clustering> jupyter notebook 
+..\MAUP> jupyter notebook 
 ```
 ## Changelog
-**5-April-2020**: Original code base published
+**24-June-2021**: 
 
 ## Resources
-Original dataset can be found here: https://data.mendeley.com/datasets/z9zfhzk8cr
+Original dataset can be found here: 
 
-Journal article can be found here: https://www.nature.com/articles/s41597-021-00897-9
-## Credits
-
-**Conceptualization:** [Babak Khavari](https://github.com/babakkhavari) & [Francesco Fuso-Nerini](https://github.com/FFusoNerini)<br />
-**Methodology:** [Babak Khavari](https://github.com/babakkhavari)<br />
-**Software:** [Babak Khavari](https://github.com/babakkhavari)<br />
-**Validation:** [Babak Khavari](https://github.com/babakkhavari), [Alexandros Konrkovelos](https://github.com/akorkovelos) & [Andreas Sahlberg](https://github.com/AndreasSahlberg)<br />
-**Supervision and Advisory support:** [Francesco Fuso-Nerini](https://github.com/FFusoNerini) & [Mark Howells](https://orcid.org/0000-0001-6419-4957)<br />
+Journal article can be found here: 
