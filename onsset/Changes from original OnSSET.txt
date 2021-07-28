@@ -1,0 +1,13 @@
+The OnSSET code published in this repository has a few updates from the OnSSET code available through the official OnSSET repository (https://github.com/OnSSET/onsset) as of June 2021. 
+The following text file lists these differences. In order to replicate the results of the analysis the version of OnSSET ran should be the one available here. 
+
+•	The way demand is determined has been changed. In the official OnSSET code the user can select between 6 demands in urban and rural settlements. These are the 5 tiers as reported 
+	by the Mutli-Tier Framework and a custom demand that has to be estimated using GIS layers. In the code that is available through the MAUP repository we have used GDP and poverty to generate 
+	a custom demand layer, but the OnSSET code is also rewritten so that a factor specified by the user is multiplied to the demand in each cell of our GIS map.
+•	We run the analysis with grid, mini-grid PV, mini-grid wind, mini-grid hydro and stand-alone PV
+•	Added the cost of MV and LV lines to the specs files. This enables running OnSSET a larger number of times without having to rerun manually from run to run. The same applies to discount rate, 
+	losses in the electrical grid and grid capacity investment cost
+•	In the original OnSSET code the user could specify three different costs for PV. Either the “normal” cost, 25% higher or 25 lower. In the code published in the MAUP repository, a factor is 
+	multiplied to the PV-cost instead. This has to be added in the specs file. Find example files in this the MAUP repo.
+•	In the OnSSET code available on the official repo, settlements with the lowest investment cost per capita is electrified first. In the MAUP repo this has been changed to lowest travel time 
+	from closest urban center instead. 
