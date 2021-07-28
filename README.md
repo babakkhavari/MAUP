@@ -46,7 +46,7 @@ With the environment activated, you can now move to the clustering directory and
 ..\MAUP> jupyter notebook 
 ```
 ## Changelog
-**24-June-2021**: Original code made public
+**24-June-2021**: Original code made public <br\>
 **28-July-2021**: Cleaned up the notebooks
 
 ## Resources
