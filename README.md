@@ -10,7 +10,7 @@ This repository contains:
 
 ## Installing and running the notebooks
 
-**Requirements**
+**Requirements**<br>
 *NOTE:* The requirements below refer to running the two notebooks on this repository (DBSCAN clustering and SALib). In case you wish to run the OnSSET codes instructions follows in a later section.  
 
 The MAUP module (as well as all supporting scripts in this repo) have been developed in Python 3. We recommend installing [Anaconda's free distribution](https://www.anaconda.com/distribution/) as suited for your operating system. 
