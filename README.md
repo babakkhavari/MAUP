@@ -5,15 +5,17 @@ Supporting codes for analysis conducted as part of **The modifiable areal unit p
 This repository contains:
 * An environment .yml file needed for generating a fully functioning python 3.7 environment necessary for the codes in this repository.
 * The DBSCAN code used for the DBSCAN clustering. 
-* The code used in order to conduct and visualize the sensitivity analysis (based on [SALib](https://github.com/SALib/SALib).
+* The code used in order to conduct the sensitivity analysis (based on [SALib](https://github.com/SALib/SALib)).
+* And the OnSSET version used in order to generate the least-cost electrification results
 
-## Installing and running the clustering notebook
+## Installing and running the notebooks
 
 **Requirements**
+*NOTE:* The requirements below refer to running the two notebooks on this repository (DBSCAN clustering and SALib). In case you wish to run the OnSSET codes instructions follows in a later section.  
 
 The MAUP module (as well as all supporting scripts in this repo) have been developed in Python 3. We recommend installing [Anaconda's free distribution](https://www.anaconda.com/distribution/) as suited for your operating system. 
 
-**Install the clustering repository from GitHub**
+**Install the repository from GitHub**
 
 After installing Anaconda you can download the repository directly or clone it to your designated local directory using:
 
@@ -44,9 +46,10 @@ With the environment activated, you can now move to the clustering directory and
 ..\MAUP> jupyter notebook 
 ```
 ## Changelog
-**24-June-2021**: 
+**24-June-2021**: Original code made public
+**28-July-2021**: Cleaned up the notebooks
 
 ## Resources
-Original dataset can be found here: 
+Dataset can be found here: #TODO: ADD MENDELEY REPO WHEN MADE PUBLIC 
 
-Journal article can be found here: 
+Journal article can be found here: #TODO: ADD WHEN MADE PUBLIC
