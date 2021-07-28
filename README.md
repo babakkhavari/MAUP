@@ -74,7 +74,7 @@ pip install onsset
 
 ## Changelog
 **24-June-2021**: Original code made public <br>
-**28-July-2021**: Cleaned up the notebooks
+**28-July-2021**: Cleaned up the notebooks and added OnSSET codes used
 
 ## Resources
 Dataset can be found here: #TODO: ADD MENDELEY REPO WHEN MADE PUBLIC 
