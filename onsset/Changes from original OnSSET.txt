@@ -11,3 +11,5 @@ The following text file lists these differences. In order to replicate the resul
 	multiplied to the PV-cost instead. This has to be added in the specs file. Find example files in this the MAUP repo.
 •	In the OnSSET code available on the official repo, settlements with the lowest investment cost per capita is electrified first. In the MAUP repo this has been changed to lowest travel time 
 	from closest urban center instead.
+•	OnSSET usually produces one result file and one summary file. In the version of OnSSET published here we only produce summary files
+•	The summary file usually includes information on population connected to each technology, added capacity, new connections and investment costs. In this version we have these as well as the average LCOE for each scenarios.
