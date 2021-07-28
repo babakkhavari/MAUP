@@ -45,6 +45,33 @@ With the environment activated, you can now move to the clustering directory and
 ```
 ..\MAUP> jupyter notebook 
 ```
+## OnSSET Installation
+
+### Requirements
+
+OnSSET requires Python > 3.5 with the following packages installed:
+- et-xmlfile
+- jdcal
+- numpy
+- openpyxl
+- pandas
+- python-dateutil
+- pytz
+- six
+- xlrd
+- notebook
+- seaborn
+- matplotlib
+- scipy
+
+### Install with pip
+
+Install onsset from the Python Packaging Index (PyPI):
+
+```
+pip install onsset
+```
+
 ## Changelog
 **24-June-2021**: Original code made public <br>
 **28-July-2021**: Cleaned up the notebooks
