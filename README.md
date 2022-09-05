@@ -77,6 +77,5 @@ pip install onsset
 **28-July-2021**: Cleaned up the notebooks and added OnSSET codes used
 
 ## Resources
-Dataset can be found here: #TODO: ADD MENDELEY REPO WHEN MADE PUBLIC 
-
-Journal article can be found here: #TODO: ADD WHEN MADE PUBLIC
+Dataset can be found here: https://data.mendeley.com/datasets/jcr5rgt66j
+Journal article can be found here: https://www.sciencedirect.com/science/article/pii/S2211467X21001371
